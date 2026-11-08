@@ -20,6 +20,7 @@ dotnet run
 1. **Exemplo passo a passo** com o vetor `[101, 115, 30, 63, 47, 20]`
 2. **Digitar um vetor** e ver o passo a passo dele
 3. **Comparativo de desempenho** com vetores aleatórios, crescentes e decrescentes (n = 1.000 até 1.000.000)
+4. **Aplicação prática** com transações ordenadas por valor usando Insertion, Merge e Quick (n = 1.000 até 10.000.000) e as 10 maiores
 
 ## Integrantes
 

@@ -281,6 +281,7 @@ class Program
             Console.WriteLine("1 - Exemplo passo a passo");
             Console.WriteLine("2 - Digitar um vetor");
             Console.WriteLine("3 - Comparativo de desempenho");
+            Console.WriteLine("4 - Aplicacao pratica (transacoes)");
             Console.WriteLine("0 - Sair");
             Console.Write("Opcao: ");
             opcao = int.Parse(Console.ReadLine());
@@ -296,6 +297,9 @@ class Program
                     break;
                 case 3:
                     comparativo();
+                    break;
+                case 4:
+                    AplicacaoPratica.executar();
                     break;
                 case 0:
                     break;
